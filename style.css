@@ -1,0 +1,100 @@
+/* Page background and center layout */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container in the center */
+.container {
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 12px;
+    width: 450px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Product item layout */
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a2a2a;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+/* Product info (name + price) */
+.product-info {
+    font-size: 16px;
+    flex: 1;
+    color: #ffffff;
+}
+
+/* Purple Add to Cart button */
+.add-to-cart {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: rebeccapurple;
+}
+
+/* Message when cart is empty */
+#empty-cart {
+    text-align: center;
+    color: #aaa;
+}
+
+/* Hide this when using JS */
+.hidden {
+    display: none;
+}
+
+/* Cart total area */
+#cart-total {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Bold total */
+#total-price {
+    font-weight: bold;
+}
+
+/* Checkout button style */
+#checkout-btn {
+    margin-top: 10px;
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+#checkout-btn:hover {
+    background-color: #8a2be2;
+}
