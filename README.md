@@ -14,10 +14,6 @@ See the total price update in real-time.
 
 Responsive and visually appealing layout with dark mode styling.
 
-Demo
-
-
-(Optional: Add a screenshot of your project here)
 
 Installation
 
